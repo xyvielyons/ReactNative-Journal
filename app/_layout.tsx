@@ -1,6 +1,7 @@
 import {Stack,SplashScreen} from 'expo-router'
 import { useEffect } from 'react'
 import {useFonts} from 'expo-font'
+import { StatusBar } from 'expo-status-bar';
 import { NativeBaseProvider, Text, Box } from "native-base";
 import {
     Roboto_100Thin,
@@ -43,9 +44,13 @@ const RootLayout = () => {
       if(!fontsLoaded && !error) return null
   return (
     <NativeBaseProvider>
-    <Stack>
+    <Stack
+    >
         <Stack.Screen name='index' options={{headerShown:false}}></Stack.Screen>
+        <Stack.Screen name='(Auth)/sign-up' options={{headerShown:false}}></Stack.Screen>
     </Stack>
+
+    <StatusBar style='dark' hidden={true}></StatusBar>
     </NativeBaseProvider>
   )
 }
