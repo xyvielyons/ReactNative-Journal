@@ -20,7 +20,7 @@ const SignUp = () => {
         </View>
 
         <View>
-          <Text className='text-[32px] font-rbold pl-[16px] pr-[16px] text-coolGray80'>create Account 😃</Text>
+          <Text className='text-[42px] font-rbold pl-[16px] pr-[16px] text-coolGray80'>create Account 😃</Text>
         </View>
 
         <View>
@@ -68,7 +68,9 @@ const SignUp = () => {
         </View>
 
         <View className='pl-[16px] pr-[16px]'>
-          <Button></Button>
+          <Button
+          label='sign-up'
+          ></Button>
         </View>
 
       </ScrollView>

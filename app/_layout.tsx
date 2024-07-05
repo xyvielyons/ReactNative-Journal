@@ -49,6 +49,7 @@ const RootLayout = () => {
         >
         <Stack.Screen name='index' options={{headerShown:false}}></Stack.Screen>
         <Stack.Screen name='(Auth)/sign-up' options={{headerShown:false}}></Stack.Screen>
+        <Stack.Screen name='(Auth)/sign-in' options={{headerShown:false}}></Stack.Screen>
 
 
         </Stack>

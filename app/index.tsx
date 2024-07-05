@@ -1,6 +1,5 @@
 import { View, Text,Image,TouchableOpacity } from 'react-native'
 import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
 import { ScrollView } from 'react-native'
 import images from '@/constants/images'
 import AntDesign from '@expo/vector-icons/AntDesign';
@@ -42,7 +41,7 @@ const App = () => {
                 onPress={()=>router.push('/sign-up')}
                 >
                   <View>
-                    <Text className='text-white font-rmedium'>Create account</Text>
+                    <Text className='text-white font-rmedium text-[16px]'>Create Account</Text>
                   </View>
 
                   <View>
