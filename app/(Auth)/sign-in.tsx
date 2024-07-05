@@ -63,6 +63,7 @@ const SignIn = () => {
         <View className='pl-[16px] pr-[16px]'>
           <Button
           label='sign in'
+          route='/home'
           ></Button>
         </View>
 
