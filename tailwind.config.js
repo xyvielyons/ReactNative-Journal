@@ -3,6 +3,13 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors:{
+          primarycolor:"#F5F6FA",
+          coolGray60:"#697077",
+          coolGray80:"#343A3F",
+          coolGray90:"#21272A"
+
+      },
       fontFamily: {
         rthin: ["Roboto_100Thin", "sans-serif"],
         rlight: ["Roboto_300Light", "sans-serif"],

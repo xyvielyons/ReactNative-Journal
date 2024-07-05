@@ -1,6 +1,7 @@
 import {Stack,SplashScreen} from 'expo-router'
 import { useEffect } from 'react'
 import {useFonts} from 'expo-font'
+import { NativeBaseProvider, Text, Box } from "native-base";
 import {
     Roboto_100Thin,
     Roboto_100Thin_Italic,
@@ -39,12 +40,13 @@ const RootLayout = () => {
         if(fontsLoaded) SplashScreen.hideAsync();
     
       },[fontsLoaded,error])
-      
       if(!fontsLoaded && !error) return null
   return (
+    <NativeBaseProvider>
     <Stack>
         <Stack.Screen name='index' options={{headerShown:false}}></Stack.Screen>
     </Stack>
+    </NativeBaseProvider>
   )
 }
 
