@@ -2,7 +2,8 @@ import {Stack,SplashScreen} from 'expo-router'
 import { useEffect } from 'react'
 import {useFonts} from 'expo-font'
 import { StatusBar } from 'expo-status-bar';
-import { NativeBaseProvider, Text, Box } from "native-base";
+import { GluestackUIProvider, Text, Box } from "@gluestack-ui/themed"
+import { config } from "@gluestack-ui/config" // Optional if you want to use default theme
 import {
     Roboto_100Thin,
     Roboto_100Thin_Italic,
@@ -43,15 +44,20 @@ const RootLayout = () => {
       },[fontsLoaded,error])
       if(!fontsLoaded && !error) return null
   return (
-    <NativeBaseProvider>
-    <Stack
-    >
+    <GluestackUIProvider config={config}> 
+       <Stack
+        >
         <Stack.Screen name='index' options={{headerShown:false}}></Stack.Screen>
         <Stack.Screen name='(Auth)/sign-up' options={{headerShown:false}}></Stack.Screen>
-    </Stack>
 
-    <StatusBar style='dark' hidden={true}></StatusBar>
-    </NativeBaseProvider>
+
+        </Stack>
+       <StatusBar style='dark' hidden={true}></StatusBar>
+
+    </GluestackUIProvider> 
+    
+
+
   )
 }
 
