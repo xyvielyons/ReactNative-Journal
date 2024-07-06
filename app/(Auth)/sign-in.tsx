@@ -9,7 +9,7 @@ import Button from '@/components/Button';
 const SignIn = () => {
   return (
     <SafeAreaView className='h-full bg-primarycolor'>
-      <ScrollView className='w-full h-full space-y-4'>
+      <ScrollView className='w-full h-full space-y-4 mb-4'>
 
         <View className='p-4 mt-[8px]'>
           <TouchableOpacity
