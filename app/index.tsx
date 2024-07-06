@@ -38,7 +38,7 @@ const App = () => {
                 <TouchableOpacity
                 className='bg-coolGray90 p-4 rounded-xl items-center ml-10 mr-10 flex-row justify-center space-x-2'
                 activeOpacity={0.8}
-                onPress={()=>router.push('/home')}
+                onPress={()=>router.push('/sign-up')}
                 >
                   <View>
                     <Text className='text-white font-rmedium text-[16px]'>Create Account</Text>

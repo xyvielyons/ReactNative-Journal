@@ -69,6 +69,7 @@ const SignUp = () => {
 
         <View className='pl-[16px] pr-[16px]'>
           <Button
+          route=''
           label='sign-up'
           ></Button>
         </View>
