@@ -53,7 +53,7 @@ const RootLayout = () => {
 
 
         </Stack>
-       <StatusBar style='dark' hidden={true}></StatusBar>
+       <StatusBar style='dark'></StatusBar>
 
     </GluestackUIProvider> 
     
