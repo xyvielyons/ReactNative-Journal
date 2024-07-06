@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <SafeAreaView className='bg-primarycolor h-full'>
      
-        <View className='bg-white flex flex-row justify-between p-2'>
+        <View className='bg-white flex flex-row justify-between p-4'>
             <View>
               <Text className='text-[16px] font-rmedium text-coolGray60'>Hello</Text>
               <Text className='text-[20px] font-rbold text-coolGray80'>Mbugua 👋</Text>
