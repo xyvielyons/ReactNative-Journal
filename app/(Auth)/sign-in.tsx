@@ -20,7 +20,7 @@ const SignIn = () => {
         </View>
 
         <View>
-          <Text className='text-[42px] font-rbold pl-[16px] pr-[16px] text-coolGray80'>welcome Back 😃</Text>
+          <Text className='text-[42px] font-rbold pl-[16px] pr-[16px] text-coolGray80'>welcome Back 😁</Text>
         </View>
 
         <View>
