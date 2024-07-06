@@ -18,13 +18,13 @@ const App = () => {
 
           <View className='p-[24px] space-y-2 items-center justify-center relative'>
             <View>
-              <Text className='text-[20px] font-rbold text-coolGray80'>Take your personal notes to another level</Text>
+              <Text className='text-[24px] font-rbold text-coolGray80'>Take your personal notes to another level</Text>
             </View>
 
             <View>
               <Text className='text-[16px] font-rmedium text-coolGray60'>Get ready for a revolution in note-taking!</Text>
             </View>
-            <View className='absolute top-[87px] right-16'>
+            <View className='absolute top-[98px] right-16'>
               <Image
               source={images.pen}
               resizeMode='contain'
